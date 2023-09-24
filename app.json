@@ -3,6 +3,7 @@
     "name": "MemoApp3",
     "slug": "MemoApp3",
     "version": "1.0.0",
+    "privacy": "unlisted",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,6 +26,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d9e401a2-5948-4ae3-a5aa-f54467c0a15a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d9e401a2-5948-4ae3-a5aa-f54467c0a15a"
     }
   }
 }
